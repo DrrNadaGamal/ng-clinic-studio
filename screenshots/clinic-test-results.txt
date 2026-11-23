@@ -1,0 +1,107 @@
+105 checks passed
+WordPress latest / PHP 8.3 / SQLite via WordPress Playground
+PASS Seed: 12 synthetic records
+PASS Admin can read demo notes
+PASS Seed: 12 appointments
+PASS No page overflow: en/overview/1440
+PASS No page overflow: en/schedule/1440
+PASS No page overflow: en/patients/1440
+PASS No page overflow: en/team/1440
+PASS No page overflow: en/activity/1440
+PASS No page overflow: en/overview/1024
+PASS No page overflow: en/schedule/1024
+PASS No page overflow: en/patients/1024
+PASS No page overflow: en/team/1024
+PASS No page overflow: en/activity/1024
+PASS No page overflow: en/overview/768
+PASS No page overflow: en/schedule/768
+PASS No page overflow: en/patients/768
+PASS No page overflow: en/team/768
+PASS No page overflow: en/activity/768
+PASS No page overflow: en/overview/390
+PASS No page overflow: en/schedule/390
+PASS No page overflow: en/patients/390
+PASS No page overflow: en/team/390
+PASS No page overflow: en/activity/390
+PASS No page overflow: en/overview/320
+PASS No page overflow: en/schedule/320
+PASS No page overflow: en/patients/320
+PASS No page overflow: en/team/320
+PASS No page overflow: en/activity/320
+PASS No page overflow: ar/overview/1440
+PASS No page overflow: ar/schedule/1440
+PASS No page overflow: ar/patients/1440
+PASS No page overflow: ar/team/1440
+PASS No page overflow: ar/activity/1440
+PASS No page overflow: ar/overview/1024
+PASS No page overflow: ar/schedule/1024
+PASS No page overflow: ar/patients/1024
+PASS No page overflow: ar/team/1024
+PASS No page overflow: ar/activity/1024
+PASS No page overflow: ar/overview/768
+PASS No page overflow: ar/schedule/768
+PASS No page overflow: ar/patients/768
+PASS No page overflow: ar/team/768
+PASS No page overflow: ar/activity/768
+PASS No page overflow: ar/overview/390
+PASS No page overflow: ar/schedule/390
+PASS No page overflow: ar/patients/390
+PASS No page overflow: ar/team/390
+PASS No page overflow: ar/activity/390
+PASS No page overflow: ar/overview/320
+PASS No page overflow: ar/schedule/320
+PASS No page overflow: ar/patients/320
+PASS No page overflow: ar/team/320
+PASS No page overflow: ar/activity/320
+PASS Live schedule name search
+PASS Schedule empty state
+PASS Status filter
+PASS Patient search
+PASS Notes sanitized server-side
+PASS Default booking chooses an available day after hours
+PASS Reject invalid booking nonce
+PASS Reject missing synthetic consent
+PASS Reject invalid {"doctor":99}
+PASS Reject invalid {"service":0}
+PASS Reject invalid {"date":"2026-02-31"}
+PASS Reject invalid {"time":"09:15"}
+PASS Reject invalid {"date":"2000-01-01"}
+PASS Reject invalid {"name":"x"}
+PASS Reject invalid {"date":"2099-01-01"}
+PASS Browser end-to-end booking confirmation
+PASS Duplicate slot rejected by database unique key
+PASS Duplicate does not create orphan patient
+PASS Booking persisted in staff workspace
+PASS Reject skipping check-in
+PASS Confirmed to checked-in
+PASS Reject reverse transition
+PASS Checked-in to complete
+PASS Completed state is terminal
+PASS Create cancellation test visit
+PASS Cancellation persists
+PASS Cancelled slot can be rebooked
+PASS Booking overflow en/1440
+PASS Booking overflow en/768
+PASS Booking overflow en/390
+PASS Booking overflow en/320
+PASS Booking overflow ar/1440
+PASS Booking overflow ar/768
+PASS Booking overflow ar/390
+PASS Booking overflow ar/320
+PASS reception can manage schedule
+PASS reception notes access enforced
+PASS reception note write capability
+PASS clinician can manage schedule
+PASS clinician notes access enforced
+PASS clinician note write capability
+PASS Subscriber denied workspace
+PASS Anonymous cannot access patient records
+PASS Public catalog exposes no patient records
+PASS Anonymous demo booking permitted with valid nonce
+PASS Missing record returns 404
+PASS Missing appointment returns 404
+PASS Reject oversized note
+PASS Reject invalid staff REST nonce
+PASS WordPress shortcode page renders booking form
+PASS PHP parse/lint: all five plugin files
+PASS No browser JavaScript errors
